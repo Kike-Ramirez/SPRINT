@@ -1,0 +1,48 @@
+# $PRINT Installation
+# *******************
+# Client: Intermon Oxfam
+# Developer: Kike Ramirez - Espadaysantacruz
+# Date: 21/4/2016
+# v1.0
+
+# Parametros de la aplicacion
+
+sprint:
+    Economicos:
+        # Datos del fraude total anual en España
+        FraudeFiscalAnual: 59000000000
+        # Una persona pedaleando debe llegar a unos 5000€
+        escalaEsfuerzo: 37
+    Timers:
+        # Cada cuanto tiempo se chequea la velocidad
+        Velocidad: 1
+        # Cada cuanto tiempo sin pedalear se reinica el juego
+        Pedaleo: 3
+        # Cuanto dura la cuenta atras -NO CAMBIAR: siempre 6-
+        CuentaAtras: 6
+        # Cuanto dura el juego
+        Juego: 30
+        # Cuanto tiempo se congela el marcador al finalizar el juego
+        Marcador: 5
+        # Cuanto tiempo se muestran los records
+        Record: 10
+
+# Textos que aparecen en la cuenta atras y records      
+    Textos:
+        CuentaAtras:
+            Titulo: 'CUENTA ATRAS'
+            t0: 'ADELANTE!!!'
+            t1: 'UNO'
+            t2: 'DOS'
+            t3: 'TRES'
+            t4: 'CUATRO'
+            t5: 'CINCO'
+        Record:
+            Actual: 
+                Texto: 'Record Actual'
+                Alineacion: 1
+                Efecto: 25
+            Nuevo: 
+                Texto: 'Nuevo Record!'
+                Alineacion: 1
+                Efecto: 6
